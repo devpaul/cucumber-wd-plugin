@@ -6,7 +6,11 @@
   "scripts": {
     "test": "grunt test"
   },
-  "repository": {},
+  "homepage" : "https://github.com/devpaul/cucumber-wd-plugin",
+  "repository": { "type": "https"
+                , "url": "https://github.com/devpaul/cucumber-wd-plugin.git"
+                },
+  "bugs" : { "url": "https://github.com/devpaul/cucumber-wd-plugin/issues" },
   "author": "Paul Shannon",
   "license": "MIT",
   "dependencies": {
