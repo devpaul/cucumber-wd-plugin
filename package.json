@@ -1,0 +1,25 @@
+{
+  "name": "cucumber-wd-plugin",
+  "version": "0.0.1",
+  "description": "A cucumber listener with wd bindings",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {},
+  "author": "Paul Shannon",
+  "license": "MIT",
+  "dependencies": {
+    "q": "~0.9.6"
+  },
+  "devDependencies": {
+    "wd": "0.0.32",
+    "cucumber": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.1"
+  },
+    "peerDependencies": {
+    "wd": "~0.0.32",
+    "cucumber": "~0.3.0"
+  }
+}
