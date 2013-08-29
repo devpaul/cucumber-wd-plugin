@@ -23,7 +23,7 @@
     "grunt": "~0.4.1"
   },
     "peerDependencies": {
-    "wd": "~0.0.32",
-    "cucumber": "~0.3.0"
+    "wd": "*",
+    "cucumber": "*"
   }
 }
