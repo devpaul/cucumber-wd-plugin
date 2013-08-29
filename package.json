@@ -1,6 +1,6 @@
 {
   "name": "cucumber-wd-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A cucumber listener with wd bindings",
   "main": "lib/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "grunt": "~0.4.1"
   },
     "peerDependencies": {
-    "wd": "*",
-    "cucumber": "*"
+    "wd": ">= 0.0.32",
+    "cucumber": ">= 0.3.0"
   }
 }
