@@ -14,6 +14,7 @@ module.exports = function(grunt) {
     }
 
     function describeGoals() {
-        grunt.registerTask('default', ['jshint'])
+        grunt.registerTask('test', ['jshint'])
+        grunt.registerTask('default', 'test')
     }
 }
